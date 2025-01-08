@@ -29,10 +29,12 @@ whichIsLonger("Mariangela", "Ugo");
 //3.1
 console.log(
   `${
-    hacker2[0]
-  } ${hacker2[1].toUpperCase()} ${hacker2[2].toUpperCase()} ${hacker2[3].toUpperCase()} ${hacker2[1].toUpperCase()} `,
+    hacker1[0]
+  } ${hacker1[1].toUpperCase()} ${hacker1[2].toUpperCase()} ${hacker1[3].toUpperCase()} ${hacker1[1].toUpperCase()} `,
 );
 //3.2
+
+let reversed = "";
 for (let i = hacker1.length - 1; i >= 0; i--) {
   reversed += hacker1[i];
 }
